@@ -168,7 +168,6 @@ form {
   border: 2px solid #ff385c;
   padding: 20px;
   display: flex;
-  width: 100%;
 }
 
 form div {
@@ -176,6 +175,7 @@ form div {
   flex-direction: column;
   width: 100%;
   align-self: center;
+  padding: 10px;
 }
 
 /* -------- About Section---------*/
