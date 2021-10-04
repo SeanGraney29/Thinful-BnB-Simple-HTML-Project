@@ -116,7 +116,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  display: inline-block;
+  width: 100%;
 }
 
 form button {
