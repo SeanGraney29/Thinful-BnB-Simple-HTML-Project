@@ -39,13 +39,13 @@
             <label for="name">Location</label>
             <input id="name" type="text" name="name" placeholder="Search destination" required />
           </div>
-          <div>
+          <div class="arrive-field">
             <label for="arrive">Arrive</label>
-            <input id="arrive" type="date" name="arrive" required />
+            <input id="arrive" type="date" name="arrive" placeholder="dd/mm/yyyy" required />
           </div>
-          <div>
+          <div class="depart-field">
             <label for="depart">Depart</label>
-            <input id="depart" type="date" name="depart" required />
+            <input id="depart" type="date" name="depart" placeholder="dd/mm/yyyy" required />
           </div>
           <div>
             <label for="type">Type</label>
@@ -59,7 +59,9 @@
               <option value="yurt">Yurt</option>
             </select>
           </div>
+          <div>
           <button type="search">Search</button>
+        </div>
         </form>
       </section>
 
