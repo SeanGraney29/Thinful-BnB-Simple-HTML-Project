@@ -167,7 +167,7 @@ footer p {
 form {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5px;
 }
 
 form div {
@@ -199,7 +199,7 @@ form div button {
 .about-section {
   display: flex;
   text-align: justify;
-  padding: 20px;
+  padding: 5px;
   align-items: center;
 }
 
@@ -246,7 +246,7 @@ form div button {
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
-  padding: 15px;
+  padding: 5px;
 }
 
 .host-section div img {
@@ -260,7 +260,7 @@ form div button {
 @media all and (min-width: 800px) {
 
   form {
-      padding: 20px;
+      padding: 5px;
     }
     
     form div {
