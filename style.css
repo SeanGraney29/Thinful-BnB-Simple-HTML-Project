@@ -139,7 +139,7 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query for iPads------- */
+/* -------  Media Query for Desktops & iPads------- */
 
 @media all and (min-width: 480px) {
   
@@ -255,13 +255,9 @@ form div button {
 
 }
 
-/* -------  Media Query for Desktops------- */
+/* -------  Media Query for Desktops (to get the date fields to shrink and grow uniformly with the other fields) ------- */
 
 @media all and (min-width: 800px) {
-
-  form {
-      padding: 5px;
-    }
     
     form div {
       width: 100%;
