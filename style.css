@@ -139,7 +139,7 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
+/* -------  Media Query for iPads------- */
 
 @media all and (min-width: 480px) {
   
@@ -165,17 +165,33 @@ footer p {
 
   /* ------- Desktop Search Form ------- */
 form {
-  border: 2px solid #ff385c;
-  padding: 20px;
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 form div {
   display: flex;
   flex-direction: column;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.arrive-field, .depart-field {
+    width: 21%;
+}
+
+form div label,  
+form div input,  
+form div select,  
+form div button{
+  display: flex;
   width: 100%;
-  align-self: center;
-  padding: 10px;
+  align-content: stretch;
+}
+
+form div button {
+  justify-content: space-evenly;
 }
 
 /* -------- About Section---------*/
@@ -221,7 +237,7 @@ form div {
 .host-section {
   display: flex;
   text-align: justify;
-  padding: 5px;
+  padding: 7px;
   align-items: center;
 }
 
@@ -237,4 +253,28 @@ form div {
   width: 100%;
 }
 
+}
+
+/* -------  Media Query for Desktops------- */
+
+@media all and (min-width: 800px) {
+
+  form {
+      padding: 20px;
+    }
+    
+    form div {
+      width: 100%;
+      align-self: center;
+      padding: 10px;
+      max-width: 250px;
+    }
+
+.arrive-field, .depart-field {
+  width: 100%;
+}
+
+button{
+  width:250px;
+}
 }
